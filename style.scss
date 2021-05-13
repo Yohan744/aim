@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+img{
+  -webkit-user-drag: none;
+}
+
+#main {
+  position: absolute;
+  top: 5vh;
+  left: 2.55vw;
+  height: 90vh;
+  width: 95vw;
+}
+
+.target {
+  position: fixed;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 100%;
+  z-index: 10;
+  transition: all 3s linear;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
